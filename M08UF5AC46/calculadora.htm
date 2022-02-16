@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="grid">
+        <input type="text" id="text">
+        <img src="img/casi.png" id="casi" alt="">
+        <img src="img/cal.png" id="cal" alt="">
+        <button id="c" class="c" onclick="borrar()">C</button>
+        <button id="set" class="numero" onclick="calcula(7)">7</button>
+        <button id="vuit" class="numero" onclick="calcula(8)">8</button>
+        <button id="nou" class="numero" onclick="calcula(9)">9</button>
+        <button id="/" class="simbol" onclick="calcula('/')">/</button>
+        <button id="quatre" class="numero" onclick="calcula(4)">4</button>
+        <button id="cinc" class="numero" onclick="calcula(5)">5</button>
+        <button id="sis" class="numero" onclick="calcula(6)">6</button>
+        <button id="*" class="simbol" onclick="calcula('*')">*</button>
+        <button id="un" class="numero" onclick="calcula(1)">1</button>
+        <button id="dos" class="numero" onclick="calcula(2)">2</button>
+        <button id="tres" class="numero" onclick="calcula(3)">3</button>
+        <button id="-" class="simbol" onclick="calcula('-')">-</button>
+        <button id="zero" class="numero" onclick="calcula(0)">0</button>
+        <button id="." class="simbol" onclick="calcula('.')">.</button>
+        <button id="=" class="simbol" onclick="igual()">=</button>
+        <button id="+" class="simbol" onclick="calcula('+')">+</button>
+    </div>
+    <script type="text/javascript" src="js/calculadora.js"></script>
+</body>
+</html>

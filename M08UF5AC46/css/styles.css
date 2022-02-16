@@ -1,0 +1,57 @@
+#grid {
+    display: grid;
+    grid-template-columns: repeat(4, 60px);
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: rgb(159, 212, 194);
+    width: 250px;
+    height: 400px;
+    margin-left: 10px;
+    padding: 10px;
+}
+button {
+    border: solid 1px black;
+    border-radius: 8px;
+}
+.numero {
+    margin: 5px;
+}
+.numero:hover {
+    background-color: rgb(192, 192, 192);
+}
+.simbol {
+    background-color: yellow;
+    margin: 5px;
+}
+.simbol:hover {
+    background-color: rgb(255, 255, 170);
+}
+#cal {
+    width: 130px;
+    margin-left: 25px;
+    grid-column: 3 span;
+    margin-bottom: 20px;
+}
+#c {
+    margin-bottom: 10px;
+    background-color: rgb(255, 93, 93);
+}
+#c:hover {
+    background-color: rgb(245, 136, 136);
+}
+#casi {
+    grid-column: 4 span;
+    width: 100px;
+    margin-left: 60%;
+    margin-bottom: 5px;
+}
+#text {
+    grid-column: 4 span;
+    height: 90px;
+    margin-bottom: 3px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: rgb(185, 223, 230);
+    font-size: xx-large;
+    text-align: center;
+}

@@ -1,0 +1,11 @@
+body {
+    background-color: rgb(170, 255, 255);
+    margin: 250px;
+    text-align: center;
+    border: 6px solid black;
+    border-left: 6px dashed black;
+    border-right: 6px dashed black;
+}
+button {
+    background-color: yellow;
+}
